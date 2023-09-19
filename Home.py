@@ -21,7 +21,7 @@ st.write(content)
 
 st.subheader("Our Team")
 
-col1, col_e1, col2, col_e2, col3 = st.columns([1.5, 0.5, 1.5, 0.5, 1.5])
+col1, col2, col3 = st.columns(3)
 
 df = pandas.read_csv("data.csv", ",")
 
